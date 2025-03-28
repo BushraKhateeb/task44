@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: calc(100% - 500px);
+    margin: auto;
+    margin-top: 100px;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.item{
+    width: 30%;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
